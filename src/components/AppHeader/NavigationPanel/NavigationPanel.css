@@ -1,0 +1,44 @@
+.navigation-panel {
+	box-shadow: 0px 5px 4.75px 0.25px rgb(0 0 0 / 7%);
+}
+.navigation-content {
+	display: flex;
+	align-items: center;
+}
+.logo-wrapper {
+	max-width: 210px;
+}
+.logo-wrapper img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.logo-wrapper {
+		display: none;
+	}
+	.navigation-container {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 576px) {
+	.navigation-panel .nav__menu-item {
+		font-size: 12px;
+	}
+	.navigation-panel .nav__menu-item a {
+		padding: 0.2em;
+	}
+}
+@media screen and (max-width: 480px) {
+	.contacts-line-right {
+		display: none;
+	}
+}
+@media screen and (max-width: 375px) {
+	.contacts-line-right {
+		display: none;
+	}
+	.nav .nav__menu-item-drop {
+		padding: 2px;
+	}
+}

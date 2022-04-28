@@ -1,0 +1,20 @@
+.welcome-container .swiper-pagination-bullet {
+	border: 1px solid #fff;
+	width: 1em;
+	opacity: 1;
+	background-color: transparent;
+	height: 1em;
+}
+
+.welcome-container .swiper-pagination-bullet-active {
+	background-color: #fff;
+}
+.welcome-container .swiper-button-prev,
+.welcome-container .swiper-button-next {
+	color: #fff;
+}
+
+.welcome-container .swiper-slide img {
+	display: block;
+	width: 100%;
+}

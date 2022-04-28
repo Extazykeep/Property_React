@@ -1,0 +1,26 @@
+.app-footer {
+	background-color: #464646;
+	padding: 50px 0;
+	color: #fff;
+	background-image: url('../../images/footer-bg.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.app-footer img {
+	max-width: 100%;
+	height: auto;
+}
+.footer-item-wrapper {
+	text-align: center;
+}
+.footer-content {
+	display: flex;
+}
+.footer-content-items {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-content-items p {
+	border-bottom: 1px solid grey;
+}

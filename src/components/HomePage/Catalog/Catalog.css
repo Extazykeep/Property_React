@@ -1,0 +1,30 @@
+.main-catalog {
+	padding: 50px 0;
+	background-color: var(--back-dark);
+}
+.main-catalog .items-list {
+	margin-top: 32px;
+}
+.main-catalog .items-list .MuiGrid-item {
+	display: flex;
+}
+.catalog-pages {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.catalog-pages ul button {
+	background-color: #fff;
+	border-radius: 0;
+}
+.catalog-pages ul li .Mui-selected,
+.catalog-pages ul button:hover {
+	background-color: #cf4041;
+	color: #fff;
+}
+.catalog-pages ul li .Mui-disabled {
+	opacity: 0.2;
+}
+.main-catalog .result-filters .Mui-focused {
+	border-color: rgba(0, 0, 0, 0.23);
+}

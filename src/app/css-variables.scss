@@ -1,0 +1,14 @@
+@import './colors';
+
+:root {
+	--color-main: #{$base-color};
+	--color-dark: #{$base-dark};
+	--back-dark: #{$back-light};
+	--text: #{$dark-text};
+}
+:root.dark {
+	--color-main: #{$base-dark-color};
+	--color-dark: --var($base-dark-color);
+	--back-dark: #{$back-dark};
+	--text: #{$light-text};
+}

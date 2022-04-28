@@ -1,0 +1,32 @@
+@import '../../../app/_colors.scss';
+
+.search-bar {
+	background-color: var(--color-main);
+	padding: 40px 0;
+}
+.search-bar .MuiOutlinedInput-input,
+.MuiMenu-list {
+	background-color: $base-dark;
+	color: #fff;
+}
+.search-bar .MuiOutlinedInput-notchedOutline {
+	border: none;
+}
+.search-bar .MuiSelect-icon {
+	fill: #fff;
+}
+.search-bar .MuiOutlinedInput-input::placeholder {
+	opacity: 1;
+}
+.search-bar button:hover,
+.search-bar button {
+	background-color: black;
+}
+.search-bar button svg {
+	width: 2em;
+	height: 2em;
+}
+.MuiMenu-list li:hover,
+.MuiModal-root .MuiMenuItem-root.Mui-selected {
+	background-color: $base-dark;
+}

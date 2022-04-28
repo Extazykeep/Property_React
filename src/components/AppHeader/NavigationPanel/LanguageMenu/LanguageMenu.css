@@ -1,0 +1,67 @@
+.currency {
+	display: flex;
+}
+.currency select {
+	border: none;
+	outline: none;
+	font-size: 18px;
+}
+.currency option {
+	border: none;
+	outline: none;
+	font-size: 18px;
+}
+.cartBox {
+	cursor: pointer;
+}
+.custom-select-container {
+	display: inline-block;
+	min-width: 60px;
+	margin-left: 10px;
+	text-align: center;
+	background-color: #f0f0f0;
+	position: relative;
+	cursor: pointer;
+}
+.selected-text {
+	padding: 5px 8px 8px 0;
+}
+.selected-text::after {
+	content: '';
+	position: absolute;
+	right: 12px;
+	top: 12px;
+	border: solid black;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	padding: 3px;
+	transform: rotate(45deg);
+}
+/* .selected-text.active::after {
+	transform: rotate(-135deg);
+} */
+
+.select-options {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	background-color: #fff;
+	z-index: 50;
+	box-shadow: 0 0 1.5px rgba(0, 0, 0, 0.3);
+}
+.custom-select-option {
+	list-style-type: none;
+	padding: 6px 20px;
+	display: flex;
+	cursor: pointer;
+}
+.custom-select-option span {
+	pointer-events: none;
+}
+.custom-select-option span + span {
+	margin-left: 5px;
+}
+.custom-select-option:hover {
+	background-color: #dcdcdc;
+}
